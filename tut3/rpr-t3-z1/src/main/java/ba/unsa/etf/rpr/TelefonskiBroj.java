@@ -15,9 +15,7 @@ public abstract class TelefonskiBroj {
         this.broj = broj;
     }
 
-    abstract public String ispisi(){
-
-    }
+    abstract public String ispisi();
     abstract public int hashCode();
 
     @Override
