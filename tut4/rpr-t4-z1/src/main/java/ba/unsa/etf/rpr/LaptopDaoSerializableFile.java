@@ -14,7 +14,7 @@ public class LaptopDaoSerializableFile implements LaptopDao {
     @Override
     public void dodajLaptopUListu(Laptop laptop) {
         laptopi.add(laptop);
-        
+
     }
 
     @Override

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpr-t2-z3" />
+        <module name="rpr-t2-z2" />
+        <module name="rpr-t2-z1" />
+        <module name="rpr-zadaca1" />
+        <module name="rpr-t4-z1" />
+        <module name="rpr-t3-z1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rpr-t2-z1" target="1.8" />
+      <module name="rpr-t2-z2" target="1.7" />
+      <module name="rpr-t2-z3" target="1.7" />
+      <module name="rpr-t3-z1" target="1.7" />
+      <module name="rpr-t4-z1" target="1.7" />
+      <module name="rpr-zadaca1" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
