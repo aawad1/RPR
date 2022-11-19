@@ -41,4 +41,12 @@ public class ExpressionEvaluatorTest {
         Double rez = space.evaluate("( 2 * 2 * 2 )");
         //assertEquals(null, rez);
     }
-}
+
+    @Test
+    public void hamoTest3(){
+        ExpressionEvaluator sviOperatori = new ExpressionEvaluator();
+        Double rez = sviOperatori.evaluate("( 100 / ( sqrt ( 16 ) - ( pow ( 1 , 3 ) * 2 ) ) )");
+        assertEquals(50.0, rez, 0.05);
+        }
+    }
+
