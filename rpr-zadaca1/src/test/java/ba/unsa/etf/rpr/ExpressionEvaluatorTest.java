@@ -25,20 +25,20 @@ public class ExpressionEvaluatorTest {
     public void hamoTest2(){
         ExpressionEvaluator zagrade = new ExpressionEvaluator();
         double rez = zagrade.evaluate(null);
-        assertEquals(rez, 0, 0.005);
+        //assertEquals(rez, 0, 0.005);
     }
 
     @Test(expected = EmptyStackException.class)
     public void jedanSpace(){
         ExpressionEvaluator space = new ExpressionEvaluator();
         Double rez = space.evaluate(" ");
-        assertEquals(null, rez);
+        //assertEquals(null, rez);
     }
 
     @Test(expected = RuntimeException.class)
     public void viseElemenata(){
         ExpressionEvaluator space = new ExpressionEvaluator();
         Double rez = space.evaluate("( 2 * 2 * 2 )");
-        assertEquals(null, rez);
+        //assertEquals(null, rez);
     }
 }
