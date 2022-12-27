@@ -8,6 +8,5 @@ import java.util.List;
 public interface CarDao extends DAO<Car> {
     List<CarDao> getByModel(Model model);
     List<CarDao> getByColor(String color);
-    List<CarDao> getByYear(String year);
     List<CarDao> getByPrice(String price);
 }
